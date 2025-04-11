@@ -77,3 +77,14 @@ git tag
 ```sh
 git show <tag-name>
 ```
+
+# How To Delete Tags 
+
+- Locally
+```sh
+ git tag -d v1.0
+```
+- Remotely
+```sh
+ git push origin --delete v1.0
+```
