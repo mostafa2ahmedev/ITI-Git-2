@@ -59,3 +59,10 @@ When to use:
 - Quick local references
 
 - When you don't need historical tracking
+
+
+# When To Use Rebase
+
+1- Maintaining a linear history: Rebase helps keep the project history clean by avoiding unnecessary merge commits
+
+2- Updating a feature branch with the latest main branch changes: Rebase applies the feature branch's commits on top of the latest main branch to avoid conflicts during later merges.
