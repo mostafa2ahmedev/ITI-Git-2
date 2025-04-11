@@ -60,7 +60,6 @@ When to use:
 
 - When you don't need historical tracking
 
-
 # When To Use Rebase
 
 1- Maintaining a linear history: Rebase helps keep the project history clean by avoiding unnecessary merge commits
@@ -70,21 +69,31 @@ When to use:
 # How To List Tags
 
 - List all tags:
+
 ```sh
 git tag
 ```
+
 - List tags with details (annotated):
+
 ```sh
 git show <tag-name>
 ```
 
-# How To Delete Tags 
+# How To Delete Tags
 
 - Locally
+
 ```sh
  git tag -d v1.0
 ```
+
 - Remotely
+
 ```sh
  git push origin --delete v1.0
 ```
+
+# Image
+
+<img src="pexels-photo-2071882.jpeg" alt="Cat Image" width="400"/>
