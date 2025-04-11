@@ -16,7 +16,7 @@ git push origin --delete branch_name
 
 Tags in Git are references to specific points in your repository's history, primarily used for marking release points (v1.0, v2.1, etc.). Git offers two types of tags with different characteristics:
 
-- Annotated Tags
+# Annotated Tags
 
 What they are:
 
@@ -34,7 +34,7 @@ Key features:
 
 - Can be cryptographically signed with GPG
 
-* Lightweight Tags
+# Lightweight Tags
 
 What they are:
 
